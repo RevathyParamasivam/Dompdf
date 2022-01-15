@@ -1,0 +1,326 @@
+	.logotext {
+    	float: center;
+		width: 250px;
+    	margin-top: -5px; 
+        margin-bottom: -15px;
+		padding: .2rem .3rem;
+		}
+
+    	html, body {
+			position:relative;
+			color: rgb(21, 23, 26);
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			text-rendering: optimizeLegibility;
+			background-color: #ffffff;
+
+		}
+
+		header {
+			background-color: #ffffff;
+			text-align: center;
+			padding: .2rem 0 0;
+		}
+		header #welcome-text {
+		margin-top: -60px;
+		}
+
+		header #logo-container {
+		margin-top: -40px;
+		}
+		header {
+			background-color: #ffffff;
+			padding: .4rem 0 0;
+		}
+		.menu {
+			padding: .4rem 2rem;
+		}
+		header ul {
+			border-bottom: 1px solid rgba(242, 242, 242, 1);
+			list-style-type: none;
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+			text-align: right;
+		}
+		header li {
+			display: inline-block;
+		}
+		header li a {
+			border-radius: 5px;
+			color: rgba(0, 0, 0, .5);
+			display: block;
+			height: 44px;
+			text-decoration: none;
+		}
+		header li.menu-item a {
+			border-radius: 5px;
+			margin: 5px 0;
+			height: 38px;
+			line-height: 36px;
+			padding: .4rem .65rem;
+			text-align: center;
+		}
+		header li.menu-item a:hover,
+		header li.menu-item a:focus {
+			background-color: rgba(83, 136, 150, 0.2);
+            color: rgba(60, 179, 113, 1.5);
+            padding-left: 15px;
+            padding-right: 15px;
+ 		}
+		header .logo {
+			float: left;
+			height: 44px;
+			padding: .4rem .5rem;
+		}
+		header .menu-toggle {
+			display: none;
+			float: right;
+			font-size: 2rem;
+			font-weight: bold;
+		}
+		header .menu-toggle button {
+			background-color: rgba(221, 72, 20, .6);
+			border: none;
+			border-radius: 3px;
+			color: rgba(255, 255, 255, 1);
+			cursor: pointer;
+			font: inherit;
+			font-size: 1.3rem;
+			height: 36px;
+			padding: 0;
+			margin: 11px 0;
+			overflow: visible;
+			width: 40px;
+		}
+		header .heroe {
+			margin:auto;
+			max-width: 1100px;
+			
+		}
+		header .heroe h1 {
+			font-size: 2.5rem;
+			font-weight: 500;
+		}
+		header .heroe h2 {
+			font-size: 1.5rem;
+			font-weight: 300;
+		}
+		
+
+		section {
+			margin: 0 ;
+			max-width: 1100px;
+			padding: 2.5rem 1.75rem 3.5rem 1.75rem;
+		}
+		section h1 {	
+			margin-bottom: 2.5rem;
+		}
+		section h2 {
+			font-size: 120%;
+			line-height: 2.5rem;
+			padding-top: 1.5rem;
+		}
+		section pre {
+			background-color: rgba(247, 248, 249, 1);
+			border: 1px solid rgba(242, 242, 242, 1);
+			display: block;
+			font-size: .9rem;
+			margin: 2rem 0;
+			padding: 1rem 1.5rem;
+			white-space: pre-wrap;
+			word-break: break-all;
+		}
+		section code {
+			display: block;
+		}
+		section a {
+			color: rgba(60, 179, 113, 1.5);
+		}
+		section svg {
+			margin-bottom: -5px;
+			margin-right: 5px;
+			width: 25px;
+		}
+		.further {
+			background-color: rgba(247, 248, 249, 1);
+			border-bottom: 1px solid rgba(242, 242, 242, 1);
+			border-top: 1px solid rgba(242, 242, 242, 1);
+		}
+		.further h2:first-of-type {
+			padding-top: 0;
+		}
+		footer {
+			
+			display:block;
+			position:relative;
+			text-align: center;
+			bottom:0px;
+		}
+		
+			footer .copyrights {
+				
+			background-color: #2596be;
+			color: rgba(200, 200, 200, 1);
+			padding: .25rem 1.75rem;
+			
+			margin-bottom:-30px;	
+		}
+		
+		.panel-menu {
+    display: flex;
+    margin-left: 10%;
+    margin-top: -25%;
+}
+
+@media screen and (max-width: 800px) {
+    .panel-menu {
+        display: flex;
+        margin-left: 0%;
+        margin-top: 0%;
+        align-self: center;
+}
+}
+.container-menu
+{
+	display:grid;
+	grid-template-columns: repeat(12,1fr);
+    grid-row-gap: 30px;	
+}
+.menu1
+{
+	grid-column: span 6;
+	height: 60%;
+	padding: 20px 20px 40px 20px;
+	margin-right:15px;
+	margin-bottom:-40px;
+	margin-top:-10px;
+}
+
+.menu2
+{
+	grid-column: span 4;
+	height: 55%;
+	padding: 20px 20px 40px 20px;
+	margin-right:15px;
+	margin-top:0 px;
+	margin-bottom:-30px;
+}
+ 
+@media screen and (max-width: 639px) {
+	.container-menu
+	{
+		display: flex;
+		flex-direction: column;
+		text-align:center;
+	}
+
+	#menu-1 {
+		margin-top: -10px;
+		margin-left: -60px;
+		margin-right: -60px;
+		margin-bottom:-60px;
+		
+	}
+
+	#menu-2 {
+		margin-left: -60px;
+		margin-right: -60px;
+		margin-bottom:-60px;
+	}
+
+	#menu-3 {
+		margin-left: -60px;
+		margin-right: -60px;
+		margin-bottom:-60px;
+	}
+
+	#menu-4 {
+		margin-left: -60px;
+		margin-right: -60px;
+		margin-bottom:-60px;
+	}
+
+	#menu-5 {
+		margin-left: -60px;
+		margin-right: -60px;
+		margin-bottom:-40px;
+	}
+
+	.menu1
+	{
+		
+		flex-direction: row;
+		
+	}
+	.menu2
+	{
+	
+		flex-direction: row;
+	}
+	.foot{
+		position:fixed;
+		bottom:0%;
+		margin:-30px;
+	}
+
+}
+
+#ifYes{
+	display:none;
+}
+
+
+.map {
+	margin-left: 40%;
+	margin-top: -68%;
+}
+label{
+	width:300px;
+	display:flex;
+	font-style: Bold;
+}
+@media screen and (max-width: 1400px) {
+    .map {
+        display:contents;
+        margin-left: none;
+        margin-top: none;
+}
+}
+
+.list-align{
+	
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 100px;
+}
+.view-align{
+	display:none;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 100px;
+}
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  text-align:"center";
+  border: 3px solid #f2f2f2;
+  z-index: 9;
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 111px;
+  right: 28px;
+  width: 280px;
+}
